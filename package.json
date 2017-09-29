@@ -1,6 +1,6 @@
 {
   "name": "webpack-visual-studio-reporter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Errors reporter for web pack. Reports errors to Visual Studio \"Error List\" view. Strictly relies on \"Task Runner Explorer\" error reporting structure.",
   "main": "index.js",
   "scripts": {
