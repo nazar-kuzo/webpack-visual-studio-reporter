@@ -1,0 +1,30 @@
+{
+  "name": "webpack-visual-studio-reporter",
+  "version": "1.0.0",
+  "description": "Errors reporter for web pack. Reports errors to Visual Studio \"Error List\" view. Strictly relies on \"Task Runner Explorer\" error reporting structure.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazar-kuzo/webpack-visual-studio-reporter.git"
+  },
+  "keywords": [
+    "webpack",
+    "visual",
+    "studio",
+    "reporter",
+    "vs",
+    "2015",
+    "2017",
+    "console",
+    "logger"
+  ],
+  "author": "Nazar Kuzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nazar-kuzo/webpack-visual-studio-reporter/issues"
+  },
+  "homepage": "https://github.com/nazar-kuzo/webpack-visual-studio-reporter#readme"
+}
