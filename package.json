@@ -1,6 +1,6 @@
 {
   "name": "webpack-visual-studio-reporter",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Errors reporter for web pack. Reports errors to Visual Studio \"Error List\" view. Strictly relies on \"Task Runner Explorer\" error reporting structure.",
   "main": "index.js",
   "scripts": {
@@ -12,13 +12,8 @@
   },
   "keywords": [
     "webpack",
-    "visual",
-    "studio",
+    "visual-studio",
     "reporter",
-    "vs",
-    "2015",
-    "2017",
-    "console",
     "logger"
   ],
   "author": "Nazar Kuzo",
