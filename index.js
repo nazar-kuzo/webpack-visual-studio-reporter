@@ -24,6 +24,12 @@ WebpackVisualStudioReporter.prototype.apply = function(compiler) {
                         } catch (ex) {
                             output += ".\\webpack.config.js: line 0, col 0, " + error.message + "\n";
                         }
+                    } else if (error.file && error.message) {
+                        output += error.file.replace(/\//g, "\\");
+						output += ": line " + (error.location ? error.location.line : 0);
+						output += ", col " + (error.location ? error.location.character : 0);
+						output += ", " + error.rawMessage.trim().replace(/(\r\n|\r|\n)/g, "");
+						output += " (" + error.rawMessage.match(/ERROR\s(.+?):/)[1].trim() + ")\n";
                     } else {
                         output += ".\\webpack.config.js: line 0, col 0, " + error.message + "\n";
                     }
